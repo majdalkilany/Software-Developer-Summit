@@ -4,37 +4,37 @@ const Speakers = [
     name: 'Majd Alkilany',
     major: 'Software developer  Microverse',
     details: 'With deep expertise, the seasoned developer .',
-    ImagePath: '../assets/majd.jpg',
+    ImagePath: './assets/majd.jpg',
   },
   {
     name: 'Majd Alkilany',
     major: 'Software developer  Microverse',
     details: 'With deep expertise, the seasoned developer .',
-    ImagePath: '../assets/majd.jpg',
+    ImagePath: './assets/majd.jpg',
   },
   {
     name: 'Majd Alkilany',
     major: 'Software developer  Microverse',
     details: 'With deep expertise, the seasoned developer .',
-    ImagePath: '../assets/majd.jpg',
+    ImagePath: './assets/majd.jpg',
   },
   {
     name: 'Majd Alkilany',
     major: 'Software developer  Microverse',
     details: 'With deep expertise, the seasoned developer .',
-    ImagePath: '../assets/majd.jpg',
+    ImagePath: './assets/majd.jpg',
   },
   {
     name: 'Majd Alkilany',
     major: 'Software developer  Microverse',
     details: 'With deep expertise, the seasoned developer .',
-    ImagePath: '../assets/majd.jpg',
+    ImagePath: './assets/majd.jpg',
   },
   {
     name: 'Majd Alkilany',
     major: 'Software developer  Microverse',
     details: 'With deep expertise, the seasoned developer .',
-    ImagePath: '../assets/majd.jpg',
+    ImagePath: './assets/majd.jpg',
   },
 ];
 const renderFeaturedSection = () => {
