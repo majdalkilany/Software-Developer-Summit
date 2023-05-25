@@ -51,13 +51,12 @@ header {
 
 #main-header {
   color: rgb(169, 14, 14);
-  color:
-    linear-gradient(
-      90deg,
-      rgb(169, 14, 14) 0%,
-      rgb(242, 83, 62) 48%,
-      rgb(242, 83, 62) 100%
-    );
+  color: linear-gradient(
+    90deg,
+    rgb(169, 14, 14) 0%,
+    rgb(242, 83, 62) 48%,
+    rgb(242, 83, 62) 100%
+  );
   font-size: xx-large;
   font-weight: 600;
   line-height: 40px;
@@ -437,13 +436,12 @@ nav {
     display: flex;
     flex-direction: column;
     color: rgb(169, 14, 14);
-    color:
-      linear-gradient(
-        90deg,
-        rgb(169, 14, 14) 0%,
-        rgb(242, 83, 62) 48%,
-        rgb(242, 83, 62) 100%
-      );
+    color: linear-gradient(
+      90deg,
+      rgb(169, 14, 14) 0%,
+      rgb(242, 83, 62) 48%,
+      rgb(242, 83, 62) 100%
+    );
     font-weight: 600;
     line-height: 65px;
     font-size: 63px;
@@ -595,6 +593,6 @@ nav {
   }
 
   .logo-footer-contanire {
-    padding: right 3rem;
+    padding-right: 3rem;
   }
 }
