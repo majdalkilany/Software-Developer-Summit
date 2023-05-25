@@ -312,15 +312,19 @@ nav {
     padding: 0;
     border-bottom: solid #e5ebff 2px;
   }
+
   body {
     background: #f8f8f8;
   }
+
   .mobile-btn {
     display: none;
   }
+
   .hamburger-menu {
     display: none;
   }
+
   .upper-nav {
     display: flex;
     flex-direction: column;
@@ -328,18 +332,22 @@ nav {
     justify-content: center;
     background-color: #504d4d;
   }
+
   .upper-nav ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
   }
+
   .desktop-menu__links_list li {
     margin-left: 2rem;
   }
+
   .upper-nav ul li {
     margin-right: 2rem;
     color: #ccc;
   }
+
   .desktop-menu {
     display: flex;
     background: #fff;
@@ -347,30 +355,38 @@ nav {
     padding-right: 3rem;
     justify-content: space-around;
   }
+
   #desktop-menu__logo {
     margin: 0.75;
   }
+
   #desktop-menu__logo img {
     width: 100px;
   }
+
   .desktop-menu__links {
     display: flex;
   }
+
   .container {
     margin-left: 8rem;
     margin-right: 8rem;
   }
+
   .desktop-menu__links_list {
     display: flex;
     align-items: center;
   }
+
   .desktop-menu__links_list li a {
     text-decoration: none;
     color: #8d8d8d;
   }
+
   .desktop-menu__links_list li a:hover {
     color: #f59289;
   }
+
   #main-header {
     display: flex;
     flex-direction: column;
@@ -380,10 +396,12 @@ nav {
     line-height: 65px;
     font-size: 63px;
   }
+
   #header-small {
     color: #f34e1b;
     font-size: 2.5rem;
   }
+
   .paragraph {
     margin: 1rem;
     display: flex;
@@ -392,36 +410,46 @@ nav {
     max-width: 38rem;
     line-height: 23px;
   }
+
   .header-three {
     color: #515151;
     font-weight: 900;
   }
+
   .sub-header {
     font-size: 2.5rem;
     line-height: 40px;
     margin-top: 2rem;
   }
+
   #contact-email {
     display: none;
   }
+
   .par {
     margin: 0;
   }
+
   h6 {
     margin-bottom: 5rem;
   }
+
   .main-sec {
     margin-top: 3rem;
   }
+
   .hr {
     width: 1rem;
   }
+
   .past-sec {
     flex-direction: revert;
   }
+
   .partner {
     display: none;
   }
+
   .footer {
     background-color: #414246;
     width: 100%;
@@ -429,10 +457,9 @@ nav {
     padding: 39px 15rem;
     margin-bottom: 0;
   }
+
   .footer-end p {
     font-size: 1rem;
     color: white;
   }
 }
-
-/*# sourceMappingURL=about.css.map */
