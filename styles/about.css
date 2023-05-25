@@ -4,20 +4,19 @@
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
+
 body {
   overflow-x: hidden;
 }
-.desktop-menu {
-  display: none;
-}
 
-.upper-nav {
+.desktop-menu {
   display: none;
 }
 
 #footer-span {
   display: none;
 }
+
 .desktop-btn {
   display: none;
 }
