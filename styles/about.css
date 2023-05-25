@@ -220,7 +220,7 @@ nav {
 }
 
 .logo-container img {
-  width: 30rem;
+  width: 25rem;
 }
 
 .past-sec {
@@ -236,7 +236,7 @@ nav {
 }
 
 .img-container {
-  width: 90%;
+  width: 30rem;
   height: 15rem;
   display: flex;
   justify-content: center;
@@ -338,6 +338,7 @@ nav {
     height: 2rem;
     justify-content: center;
     background-color: #504d4d;
+    padding-right: 6rem;
   }
 
   .upper-nav ul {
@@ -347,20 +348,20 @@ nav {
   }
 
   .desktop-menu__links_list li {
-    margin-left: 2rem;
+    margin-left: 4rem;
   }
 
   .upper-nav ul li {
     margin-right: 2rem;
-    color: #ccc;
+    color: #fff;
   }
 
   .desktop-menu {
     display: flex;
     background: #fff;
-    padding-left: 8rem;
-    padding-right: 3rem;
-    justify-content: space-around;
+    padding-left: 15rem;
+    padding-right: 1.8rem;
+    justify-content: space-between;
   }
 
   #desktop-menu__logo {
@@ -373,6 +374,8 @@ nav {
 
   .desktop-menu__links {
     display: flex;
+    padding: 0;
+    padding-right: 6rem;
   }
 
   .container {
@@ -388,6 +391,12 @@ nav {
   .desktop-menu__links_list li a {
     text-decoration: none;
     color: #8d8d8d;
+  }
+
+  #bordered-item {
+    color: #f59289;
+    border: solid 3px #f59289;
+    padding: 0.25rem;
   }
 
   .desktop-menu__links_list li a:hover {
@@ -416,12 +425,14 @@ nav {
   }
 
   .paragraph {
-    margin: 1rem;
+    margin: 3rem;
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    max-width: 38rem;
+    max-width: 41rem;
+    padding: 2rem;
     line-height: 23px;
+    height: 10rem;
   }
 
   .header-three {
@@ -432,7 +443,7 @@ nav {
   .sub-header {
     font-size: 2.5rem;
     line-height: 40px;
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
 
   #contact-email {
@@ -441,6 +452,8 @@ nav {
 
   .par {
     margin: 0;
+    height: auto;
+    padding: 0;
   }
 
   h6 {
@@ -448,7 +461,13 @@ nav {
   }
 
   .main-sec {
-    margin-top: 3rem;
+    padding-top: 4rem;
+    margin-top: 0;
+    background: white;
+  }
+
+  .past-div {
+    background-color: white;
   }
 
   .hr {
@@ -457,6 +476,8 @@ nav {
 
   .past-sec {
     flex-direction: revert;
+    background-color: #ffff;
+    justify-content: center;
   }
 
   .partner {

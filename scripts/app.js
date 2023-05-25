@@ -1,4 +1,3 @@
-/* eslint-disable no-plusplus */
 const Speakers = [
   {
     name: 'Majd Alkilany',
@@ -37,6 +36,13 @@ const Speakers = [
     ImagePath: './assets/majd.jpg',
   },
 ];
+
+function toggleClass() {
+  const speakersToHide = document.querySelectorAll('.speakersToHide');
+  speakersToHide.forEach((div) => {
+    div.classList.toggle('active');
+  });
+}
 const renderFeaturedSection = () => {
   const featuredDiv = document.getElementById('featured-speaker-header');
   const featuredSection = document.getElementById('featured-speaker-sec');
@@ -49,13 +55,12 @@ const renderFeaturedSection = () => {
   featuredDiv.appendChild(featuredHr);
   // speakers Logec -===============================================
   // speaker image container
-  for (let i = 0; i < Speakers.length; i++) {
+  for (let i = 0; i < Speakers.length; i += 1) {
     const speakerDiv = document.createElement('div');
     speakerDiv.classList.add('speaker-container');
     featuredSection.appendChild(speakerDiv);
     if (i >= 2) {
       speakerDiv.classList.add('speakersToHide');
-      console.log(window.innerWidth);
       if (window.innerWidth < 760) {
         speakerDiv.classList.add('active');
       }
@@ -92,13 +97,7 @@ const renderFeaturedSection = () => {
   button.classList = 'featured-button';
   button.innerHTML = ' <p>MORE  <i class="arrow down"> </i></p>';
   featuredSection.appendChild(button);
-  // eslint-disable-next-line no-use-before-define
   button.addEventListener('click', toggleClass);
 };
-function toggleClass() {
-  const speakersToHide = document.querySelectorAll('.speakersToHide');
-  speakersToHide.forEach((div) => {
-    div.classList.toggle('active');
-  });
-}
+
 renderFeaturedSection();
