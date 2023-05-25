@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
-
 body {
   overflow-x: hidden;
 }
-
-.nave-header {
+.desktop-menu {
   display: none;
 }
 
@@ -15,6 +16,13 @@ body {
 }
 
 #footer-span {
+  display: none;
+}
+.desktop-btn {
+  display: none;
+}
+
+.upper-nav {
   display: none;
 }
 
@@ -62,7 +70,7 @@ header {
   padding: 5px;
   background-color: hsl(0, 0%, 100%);
   color: #787878;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 20px;
   text-align: center;
 }
@@ -114,12 +122,12 @@ nav {
 }
 
 .menu__btn > span::before {
-  content: "";
+  content: '';
   top: -8px;
 }
 
 .menu__btn > span::after {
-  content: "";
+  content: '';
   top: 8px;
 }
 
@@ -164,7 +172,7 @@ nav {
   display: block;
   padding: 12px 24px;
   color: #333;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
@@ -290,8 +298,8 @@ nav {
 }
 
 .footer {
+  display: flex !important;
   margin: 2rem;
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
@@ -391,7 +399,12 @@ nav {
     display: flex;
     flex-direction: column;
     color: rgb(169, 14, 14);
-    color: linear-gradient(90deg, rgb(169, 14, 14) 0%, rgb(242, 83, 62) 48%, rgb(242, 83, 62) 100%);
+    color: linear-gradient(
+      90deg,
+      rgb(169, 14, 14) 0%,
+      rgb(242, 83, 62) 48%,
+      rgb(242, 83, 62) 100%
+    );
     font-weight: 600;
     line-height: 65px;
     font-size: 63px;

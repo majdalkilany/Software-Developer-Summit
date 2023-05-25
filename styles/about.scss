@@ -1,5 +1,8 @@
+// @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -393,13 +396,12 @@ nav {
     display: flex;
     flex-direction: column;
     color: rgb(169, 14, 14);
-    color:
-      linear-gradient(
-        90deg,
-        rgb(169, 14, 14) 0%,
-        rgb(242, 83, 62) 48%,
-        rgb(242, 83, 62) 100%
-      );
+    color: linear-gradient(
+      90deg,
+      rgb(169, 14, 14) 0%,
+      rgb(242, 83, 62) 48%,
+      rgb(242, 83, 62) 100%
+    );
     font-weight: 600;
     line-height: 65px;
     font-size: 63px;
