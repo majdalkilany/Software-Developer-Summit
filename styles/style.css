@@ -393,6 +393,10 @@ nav {
     margin: 0.75;
   }
 
+  .logo-footer-contanire img {
+    width: 11rem;
+  }
+
   #desktop-menu__logo img {
     width: 100px;
   }
@@ -560,8 +564,7 @@ nav {
 
   .footer {
     display: flex;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     justify-content: center;
   }
 
@@ -589,5 +592,9 @@ nav {
 
   .fa-brands {
     color: #ffff !important;
+  }
+
+  .logo-footer-contanire {
+    padding: right 3rem;
   }
 }
