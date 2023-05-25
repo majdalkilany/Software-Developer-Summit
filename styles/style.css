@@ -582,4 +582,8 @@ nav {
     padding-bottom: 3rem;
     text-decoration: underline;
   }
+
+  .fa-brands {
+    color: #ffff !important;
+  }
 }
